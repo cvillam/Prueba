@@ -3,6 +3,8 @@
 #define DHTPIN 15 //Analog 1
 #define DHTTYPE DHT11 
 DHT dht(DHTPIN, DHTTYPE);
+
+//PRUEBA DE CAMBIO DE CODIGO 1
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 void setup() {
 	
